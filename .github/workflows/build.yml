@@ -23,4 +23,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
-          include_files: cv.pdf
+          exclude_assets: '**.tex,**.log,**.aux,**.out,**.yml'
