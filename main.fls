@@ -127,8 +127,6 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
-INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
-INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -151,6 +149,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm

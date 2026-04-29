@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1777460741.87458 "main.tex" "main.pdf" "main" 1777460742.49054 0
+["pdflatex"] 1777489149.60485 "main.tex" "main.pdf" "main" 1777489150.18882 0
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1202520719 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -98,9 +98,9 @@
   "/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1775014592 5573030 6f5fa77fb8e40ac0e15232860e2fb745 ""
   "/opt/texlive/texdir/texmf-var/web2c/pdftex/pdflatex.fmt" 1775014685 3648525 84df444f7e8c2b1e796c6f19d3cedec1 ""
   "/opt/texlive/texdir/texmf.cnf" 1775014585 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "main.aux" 1777460742.39408 1484 45c8352ab08a6a18d6f75d082703ef7d "pdflatex"
-  "main.out" 1777460742.39508 1325 417c98f340c57ec1c68427849d357033 "pdflatex"
-  "main.tex" 1777460665.35746 8035 50fda8134356b3d0a5f7a689a50f47a0 ""
+  "main.aux" 1777489150.09245 1484 45c8352ab08a6a18d6f75d082703ef7d "pdflatex"
+  "main.out" 1777489150.09245 1325 417c98f340c57ec1c68427849d357033 "pdflatex"
+  "main.tex" 1777489074.66643 8055 96d083324922702328c4e6906207b60c ""
   (generated)
   "main.aux"
   "main.log"
