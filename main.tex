@@ -1,0 +1,202 @@
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+ \RequirePackage{filecontents}
+\begin{filecontents*}{moderncvcolorburgundy.sty}
+\end{filecontents*}
+% moderncv themes  
+\moderncvstyle{banking}   
+\usepackage[LabelsAligned]{currvita} % Use the currvita style for the layout of the document
+%\usepackage[nochapters]{classicthesis} % Use the classicthesis style for the style of the document
+% style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+%\moderncvcolor{burgundy} % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+\renewcommand*{\sectionfont}{\large\mdseries\upshape}   % try \small or \footnotesize if you want even smaller
+\renewcommand*{\subsectionfont}{\normalsize\mdseries\upshape}
+% adjust the page margins
+\usepackage{enumitem}
+\usepackage{pifont}
+\usepackage{times}
+\setlist[itemize,1]{leftmargin=\dimexpr 80pt-.5in}
+\usepackage[scale=0.8]{geometry}
+\setlength{\hintscolumnwidth}{3.6cm}  
+\usepackage{setspace}
+
+% if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Freya}{Rubel}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{John F.-Kennedy Institute}{Lansstraße 7-9}{14195 Berlin}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+%\phone[fixed]{+33 767761551} 
+%\phone[fixed]{+49 15159445615}
+
+% optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\email{f.rubel@fu-berlin.de}   
+%\social[linkedin][www.linkedin.com/in/freya-rubel]{Freya Rubel}
+% optional, remove / comment the line if not wanted                    % optional, remove / comment the line if not wanted                     % optional, remove / comment the line if not wanted                          % optional, remove / comment the line if not wanted
+                           % oe} optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[95pt][0.9pt]{Bewerbungsfoto3.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+%% Important code starts.
+\definecolor{MidnightBlue}{RGB}{25,25,112} 
+\definecolor{Waldgrün}{RGB}{65,144,83} 
+\definecolor{Burgunder}{rgb}{0.4, 0.19, 0.28} 
+\definecolor{SlateGray}{RGB}{112,128,144}
+\definecolor{DeepTeal}{RGB}{0,128,128}
+\definecolor{DarkOliveGreen}{RGB}{85,107,47}
+\definecolor{SteelBlue}{RGB}{70,130,180}
+\definecolor{Maroon}{RGB}{128,0,0}
+
+\colorlet{color1}{black}
+%% Important code ends.
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+\usepackage{multibib}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\onehalfspacing
+%\begin{CJK*}{UTF8}{gbsn}                           % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\nopagenumbers{}
+  
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\clearpage
+\makecvtitle
+
+%\section{\spacedlowsmallcaps{Persönliche Daten}}
+%\cvitem{Geburtstag}{27. Juni 2000 in Minden}
+%\cvitem{Staatsbürgerschaft}{deutsch}
+\vspace{-0.5cm}
+\section{Research Interests}
+Gender Economics, Environmental Economics, and Economic History
+
+\section{Education}
+\cventry{since 2024}{\textbf{Freie Universität Berlin}, Germany}{}{}{}{
+Ph.D. Candidate in Economics \vspace{-0.1cm}\\
+Supervisor: Prof. Dr. Max Steinhardt}
+\vspace{.1\baselineskip} 
+\cventry{2022 - 2024}{\textbf{Paris School of Economics}, France}{}{}{}{
+Applied Master in Economics, \textit{with high honors}}
+\vspace{.1\baselineskip} 
+\cventry{2018 - 2022}{\textbf{Carl von Ossietzky University Oldenburg}, Germany}{}{}{}{
+B.Sc. Sustainability Economics} 
+\vspace{.1\baselineskip} 
+\cventry{2021}{\textbf{Jyväskylä University}, Finland}{}{}{}{
+Erasmus Student Exchange}
+%\vspace{.4\baselineskip} \\
+%\cventry{08/2010 - 06/2018}{\textbf{Gymnasium Stolzenau}, Germany}{}{}{}{} 
+%Higher education entrance qualification (Abitur) \\ Final grade: 1.4 %{Advanced courses: \begin{itemize}
+   % \item Mathematics
+    %\item Politics and Economics
+    %\item Music
+    %\end{itemize}}
+
+\section{Work Experience}
+\cventry{Since 10/2024}{\textbf{Freie Universität Berlin - John F.-Kennedy Institute}, Research Assistant}{}{}{}{}%{Main tasks: 
+%\vspace*{0.02cm}
+% \begin{itemize} \itemsep -0.1cm
+ %     \item Literature research and study conception
+  %    \item Construction of a survey design and questionnaire
+%\end{itemize}}
+\vspace{.1\baselineskip} 
+\cventry{05/2023 - 07/2023}{\textbf{DIW Berlin - Climate Policy Department}, Intern}{}{}{}{}%{Main tasks: 
+%\vspace*{0.02cm}
+ %\begin{itemize} \itemsep -0.1cm
+  %    \item Construction of a survey design and questionnaire
+   %   \item Interview conduction with stakeholders from the steel and plastics industries
+%\end{itemize}}
+\vspace{.1\baselineskip} 
+\cventry{02/2022 - 04/2022}{\textbf{Düsseldorf Competition Economics}, Intern}{}{}{}{}%{Main tasks: 
+%\vspace*{0.02cm}
+ %\begin{itemize} \itemsep -0.1cm
+  %    \item Data preparation and analysis by use of Stata and \texttt{\large R}
+      %\item Literature research on two-sided markets 
+   %   \item Drafting of expert reports for antitrust court proceedings
+%\end{itemize}}
+\vspace{.1\baselineskip} 
+\cventry{03/2021 - 05/2021}{\textbf{Institute for Economic Education (IÖB)}, Intern}{}{}{}{}%{
+%Main tasks:
+%\begin{itemize} \itemsep -0.1cm
+ % \item Literature research on nudging and debiasing strategies
+  %\item Data analysis by use of SPSS and Stata
+%\end{itemize}}
+
+\section{Teaching}
+\vspace{-0.2cm}
+\textcolor{gray}{Lecturer:} \\
+\cventry{2024/25}{The Long-Run Effects of Natural Disasters (Bachelor) - with Yue Louise Hu}{}{}{}{}
+\vspace{-0.1cm} 
+\cventry{2025/26, 2024/25}{Trade, Migration and Global Challenges (Bachelor)}{}{}{}{}
+\vspace{0.1cm} 
+\textcolor{gray}{Teaching Assistant:} \\
+\cventry{2024/25}{Development of the American Economy (Master)}{}{}{}{}
+
+\section{Presentations}
+\vspace{-0.2cm}
+
+\cventry{2026}{\parbox[t]{0.8\textwidth}{Economic History Society -- Annual Conference (\textit{planned}), CESifo Junior Workshop on Energy and Climate Economics (\textit{planned})}}{}{}{}{}
+\cventry{2025}{\parbox[t]{0.8\textwidth}{Young Economists Conference, Southern Economic Association}}{}{}{}{}
+
+\section{Summer Schools}
+\vspace{-0.2cm}
+
+\cventry{2025}{\textbf{Barcelona School of Economics}}{}{}{}{Difference-in-Differences with Panel Date with Jeffrey Wooldridge}
+\vspace{-0.1cm} 
+\cventry{2025}{\textbf{Centro Studi Luca d’Agliano}}{}{}{}{International and Development Economics with Mathieu Couttenier \& Mathias Thoenig}
+\vspace{-0.4cm} 
+\section{Grants and Funding}
+\cventry{}{Paris School of Economics - Travel Grant (1000€)}{}{}{}{}
+\cventry{}{Ernst-Reuter-Gesellschaft e.V. - Travel Grant (700€)}{}{}{}{}
+
+\section{Policy Work}
+\begin{small}
+Dilger, Elina, De Ridder, Kilian, Rubel, Freya, Werdehausen, Lara, Kaiser, Jonas (2024): \textit{Die Zukunft finanzieren. Youth Budgeting als Instrument für mehr Generationengerechtigkeit in der deutschen Haushaltspolitik.} (engl.: Financing the Future: Youth Budgeting as a Tool for More Intergenerational Justice in German Fiscal Policy.) FiscalFuture e.V., Berlin.
+\end{small}
+
+\section{Other Activities}
+\cventry{since 10/2025}{Elected member of the John F.-Kennedy Institute Board at FU Berlin}{}{}{}{}
+\cventry{since 01/2023}{Active member at FiscalFuture e.V. }{}{}{}{}
+\cventry{2022, 2023}{Steering committee member for the PSE Job Forum}{}{}{}{}
+
+
+\section{Skills}
+\cvitem{Computer Languages}{Stata, \texttt{\large R}, \LaTeX, QGIS}
+\cvitem{Human Languages}{German: Native, English: Fluent, French: Working proficiency}
+
+
+%\section{Personal Interests}
+%\cvlistdoubleitem{Playing the french horn}{Writing}
+
+
+
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+%\nocite{*} 
+%\bibliographystyle{plain}
+%\bibliography{publications}                       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\clearpage
+
+\end{document}
+
