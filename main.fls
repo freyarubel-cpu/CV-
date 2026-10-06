@@ -104,8 +104,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/titlesec/titlesec.sty
-INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/l3backend-pdftex.def
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/l3backend-pdftex.def
 INPUT ./main.aux
 INPUT ./main.aux
 INPUT main.aux
